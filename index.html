@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kotta+One&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="slide1">
+            <!-- Header -->
+            <h2 id="name">Aryan Singh <span>www.example.com</span></h2>
+            <p class="year">2025</p>
+
+            <!-- Grid Layout -->
+            <div class="grid">
+                <!-- Left -->
+                <div class="left">
+                    <img class="small-image" src="img/img1.jpg" alt="Small portrait">
+                    <p class="bio">
+                        I’m Aryan Singh, a final-year BTech CSE student passionate about technology and
+                        innovation. I love building modern, responsive, and user-friendly web applications.
+                        My interests also extend to AI/ML, data analytics, and real-world problem solving.
+                    </p>
+                </div>
+
+                <!-- Middle -->
+                <div class="middle">
+                    <div class="circle-container1">
+                        <svg class="circle-text-svg1" viewBox="0 0 200 200">
+                            <defs>
+                                <path id="circlePath1" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0" />
+                            </defs>
+                            <text font-size="14" fill="#333">
+                                <textPath xlink:href="#circlePath1">Creative vision • Modern design • Problem solving •
+                                    Innovation •</textPath>
+                            </text>
+                        </svg>
+
+                        <!-- Ye wala part missing hai tumhare DOM me -->
+                        <div class="circle1"></div>
+                    </div>
+
+                    <img class="large-image" src="img/img2.jpg" alt="Large portrait">
+                </div>
+
+                <!-- Right -->
+                <div class="right">
+                    <h1 class="portfolio">portfolio</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- second page  -->
+    <section class="slide2">
+        <div class="grid2">
+            <!-- Left side -->
+            <div class="about-left">
+                <h1 class="about-title">about<br>me</h1>
+                <p class="small-info">Aryan Singh<br>2025</p>
+            </div>
+
+            <!-- Middle/Right side -->
+            <div class="about-right">
+                <div class="about-text">
+                    <p id="first">
+                        Creative, motivated, and passionate about design and technology.
+                        I love blending modern UI/UX principles with strong technical foundations
+                        to deliver clean, functional, and visually appealing solutions.
+                    </p>
+                    <p class="second">
+                        With experience in AI/ML, data analytics,and full-stack development,
+                        I aim to craft digital experiences that are both innovative and impactful.
+                    </p>
+                </div>
+
+                <!-- Image with circular text + red circle -->
+                <div class="image-box">
+                    <img src="img/img3.jpg" class="about-img">
+
+                    <div class="circle-container2">
+                        <svg class="circle-text-svg2" viewBox="0 0 200 200">
+                            <defs>
+                                <path id="circlePath2" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0" />
+                            </defs>
+                            <text font-size="14" fill="#333">
+                                <textPath xlink:href="#circlePath2">
+                                    Creativity • Development • Passion • Innovation •
+                                </textPath>
+                            </text>
+                        </svg>
+
+                        <!-- Red circle in center -->
+                        <div class="circle2"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Vertical side text -->
+            <div class="side-text">
+                <span>Find more about me</span>
+            </div>
+        </div>
+    </section>
+    <!-- Third page -->
+    <section class="slide3">
+        <!-- top-left name + year -->
+        <div class="project-info">
+            <p>Aryan Singh<br>2025</p>
+        </div>
+
+        <div class="grid3">
+            <!-- Left side -->
+            <div class="project-left">
+                <h1 class="project-title">project<br>name</h1>
+                <p class="project-desc">
+                    Developed a machine learning model for music genre classification using the K-Nearest Neighbors
+                    (KNN) algorithm.
+                    The system analyzes audio features such as tempo, spectral contrast, MFCCs, and rhythm patterns
+                    to categorize
+                    tracks into genres like rock, jazz, classical, and hip-hop.
+                </p>
+                <p class="project-desc">
+                    Implemented feature extraction with Librosa and trained the KNN model to identify genre
+                    similarities
+                    based on feature distance. Achieved high accuracy by fine-tuning the value of <i>k</i> and
+                    normalizing feature sets,
+                    ensuring the model adapts well to diverse datasets.
+                </p>
+            </div>
+
+            <!-- Right side -->
+            <div class="project-right">
+                <img src="img/img4.jpg" alt="Project Image" class="project-img">
+                <span class="project-number">1.</span>
+            </div>
+        </div>
+    </section>
+    <!-- Fourth Page -->
+    <section class="slide4">
+        <!-- Project Info (name + year bottom-right) -->
+        <div class="project-info4">
+            <p>Aryan Singh<br>2025</p>
+        </div>
+
+        <div class="grid4">
+            <!-- Left Section -->
+            <div class="project-left4">
+                <h1 class="project-title4">project<br>name</h1>
+                <p class="project-subtitle4">
+                    A simple yet effective project exploring machine learning techniques for real-world
+                    applications.
+                </p>
+
+                <div class="project-images4">
+                    <div class="image-box4">
+                        <img src="img/img5.jpg" alt="Project Image 1" class="project-img4">
+                        <p class="image-caption4">www.example.com</p>
+                    </div>
+                    <div class="image-box4">
+                        <img src="img/img6.jpg" alt="Project Image 2" class="project-img4">
+                        <p class="image-caption4">Lorem ipsum dolor sit, amet consectetur adipisi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div class="project-right4">
+                <div class="project-text4">
+                    <p>
+                        Developed a machine learning model for music genre classification using the K-Nearest
+                        Neighbors (KNN) algorithm.
+                        The system analyzes low-level audio features such as tempo, spectral centroid, zero-crossing
+                        rate,
+                        and Mel-Frequency Cepstral Coefficients (MFCCs), along with high-level rhythm and harmonic
+                        patterns,
+                        to accurately classify songs into genres like rock, jazz, classical, pop, hip-hop, and
+                        electronic.
+
+                        The workflow begins with audio preprocessing, where tracks are segmented and normalized to
+                        reduce
+                        noise and standardize volume levels. Using the Librosa library, a comprehensive set of
+                        features is extracted
+                        from each audio sample, which is then scaled and fed into the KNN model. Different values of
+                        'k' and distance metrics
+                        (Euclidean, Manhattan) were tested to optimize accuracy.
+
+                        Extensive experiments were conducted on benchmark datasets such as the GTZAN music genre
+                        dataset.
+                        The model achieved competitive accuracy compared to other baseline classifiers,
+                        demonstrating the
+                        effectiveness of simple distance-based approaches in music information retrieval. Confusion
+                        matrices and
+                        cross-validation were employed to analyze misclassifications and improve feature selection.
+                    </p>
+                    <p>
+                        Leveraging Librosa for audio feature extraction and scikit-learn for training, the model
+                        achieved strong classification performance.
+                        This project demonstrates how machine learning can be applied to enhance music
+                        recommendation systems and audio-based applications.
+                    </p>
+                </div>
+                <div class="project-number4">2.</div>
+            </div>
+        </div>
+    </section>
+    <!-- Fifth Page -->
+    <section class="slide5">
+        <!-- Project Info (bottom left corner) -->
+        <div class="project-info5">
+            <p>www.example.com</p>
+            <p>Aryan Singh</p>
+            <p>2025</p>
+        </div>
+
+        <div class="grid5">
+            <!-- Left: Image -->
+            <div class="project-left5">
+                <img src="img/img5.jpg" alt="Project Image" class="project-img5">
+            </div>
+
+            <!-- Right: Title -->
+            <div class="project-right5">
+                <h1 class="project-title5">project<br>name</h1>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="bottom5">
+            <!-- Left Number -->
+            <div class="project-number5">3.</div>
+
+            <!-- Description -->
+            <div class="project-desc5">
+                <p>
+                    Built an intelligent web application that classifies music genres using machine learning.
+                    The system applies audio preprocessing, extracts features such as MFCCs, tempo, and rhythm,
+                    and classifies songs into categories like jazz, classical, and hip-hop.
+                </p>
+                <p>
+                    The project showcases how lightweight models such as KNN can be effectively combined with
+                    feature engineering to build recommendation engines and music categorization systems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sixth Page -->
+
+
+    <section class="slide6">
+        <!-- Left vertical project title -->
+        <div class="project-left6">
+            <h1 class="project-title6">project<br>name</h1>
+            <div class="side-text6">www.example.com</div>
+            <img src="img/img7.jpg" class="project-img6">
+
+        </div>
+
+        <!-- Divider Line -->
+        <div class="vertical-line6"></div>
+
+        <!-- Right section -->
+        <div class="project-right6">
+            <!-- Top Info -->
+            <div class="project-info6">
+                <p>Aryan Singh<br>2025</p>
+            </div>
+
+            <!-- Project description -->
+            <div class="project-text6">
+                <p>
+                    Developed a deep learning-based system for image recognition using Convolutional Neural Networks
+                    (CNNs).
+                    The model was trained on large-scale datasets to classify objects across multiple categories
+                    with high accuracy.
+                </p>
+                <p>
+                    This project demonstrates applications in autonomous systems, medical imaging, and smart
+                    surveillance.
+                    By leveraging advanced architectures like ResNet and VGG, and optimizing with transfer learning,
+                    the system achieved state-of-the-art performance while remaining computationally efficient.
+                </p>
+            </div>
+
+            <div class="project-number6">4.</div>
+        </div>
+    </section>
+
+    <!-- Seventh Page -->
+    <section class="slide7">
+        <!-- Top Info -->
+        <div class="project-info7">
+            <p>Aryan Singh / 2025</p>
+        </div>
+
+        <div class="grid7">
+            <!-- Left Image -->
+            <div class="project-left7">
+                <img src="img/img8.jpg" alt="Slide 7 Image" class="project-img7">
+            </div>
+
+            <!-- Right Content -->
+            <div class="project-right7">
+                <!-- Circle with curved text -->
+                <div class="circle-container7">
+                    <svg viewBox="0 0 200 200" class="circle-text-svg7">
+                        <defs>
+                            <path id="circlePath7" d="M 100, 100
+                                 m -75, 0
+                                 a 75,75 0 1,1 150,0
+                                 a 75,75 0 1,1 -150,0" />
+                        </defs>
+                        <text font-size="12" fill="#444" font-family="Kotta One, serif">
+                            <textPath href="#circlePath7">
+                                Creative vision • Modern design • Problem solving • Innovation •
+                            </textPath>
+                        </text>
+                    </svg>
+                    <div class="circle7"></div>
+                </div>
+
+                <!-- Big Heading -->
+                <h1 class="project-title7">concept</h1>
+
+                <!-- Two-column Description -->
+                <div class="project-text7">
+                    <p>
+                        Conceptualizing and creating meaningful solutions requires blending creativity with
+                        technology.
+                        A strong foundation in design principles allows for innovative approaches while ensuring
+                        practical
+                        usability. Each idea evolves through iteration, collaboration, and attention to detail.
+                    </p>
+                    <p>
+                        This concept-driven mindset empowers me to transform abstract ideas into real-world
+                        solutions.
+                        Whether it’s through web applications, AI-driven insights, or modern UI/UX, my goal is to
+                        merge
+                        innovation with functionality to create impactful outcomes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Side Vertical Text -->
+        <div class="side-text7">
+            <span>On the move for future ideas</span>
+        </div>
+    </section>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
